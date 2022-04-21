@@ -12,3 +12,8 @@ Build the Jsonl file by calling :
 ```
 beyond_db_preprocess(relations,BioNLP_onto,taxid_microorganisms)
 ```
+Index Data to ES using Logstash
+
+```
+sudo /usr/share/logstash/bin/logstash -f 'beyond_conf.conf' #manage to give the absolute path
+```
